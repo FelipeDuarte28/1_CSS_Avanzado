@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+  
+.column.left {
+     flex: 1;
+     background-color: #FFF;
+     flex-direction: column;
+     padding: 0;
+     display: flex;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 14px;
+}
+
+.barra {
+    border-bottom: 1px solid #BEC1BB;
+    border-right: 1px solid #E8EBE4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    flex: 1 1 50px;
+}
+
+.usuario {
+    border-bottom: 1px solid #BEC1BB;
+    border-right: 1px solid #E8EBE4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    flex: 1 1 50px;
+}
+
+.usuario figure {
+    margin: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.usuario figure img {
+    border: 1px solid #BEC1BB;
+    border-radius: 50%;
+    width: 30px;
+}
+
+.usuario .texto {
+    flex: 2;
+}
+
+.usuario .texto p{
+    margin: 0;
+    font-size: 12px;
+}
+
+.usuario .texto span{
+    margin: 0;
+    font-size: 8px;
+    color: #828485;
+}
+
+.usuario .iconos {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    color: #828485;
+}
+
+.chat {
+    flex: 2 1 100px;
+    border-bottom: 1px solid #BEC1BB;
+    border-right: 1px solid #E8EBE4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.nuevoChat {
+    background-color: #A491D2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 0px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.barra .nuevoChat:hover {
+    background-color: #CDC3E6;
+}
+
+.barra .nuevoChat:focus {
+    background-color: #BEC1BB;
+}
+
+.barra figure {
+    margin: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra figure img {
+    border: 1px solid #BEC1BB;
+    border-radius: 50%;
+    width: 40px;
+}
+
+.barra .texto {
+    flex: 2;
+}
+
+.barra .texto p{
+    margin: 0;
+    font-size: 14px;
+}
+
+.barra .texto span{
+    margin: 0;
+    font-size: 10px;
+}
+
+.column.right {
+    flex: 4;
+    background-color: #F8F8F8;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column.right img {
+    width: 250px
+}
+
+.column.right h1 {
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.column.right p {
+    font-size: 16px;
+    margin-top: 0.5em;
+    text-align: center;
+}
