@@ -94,11 +94,11 @@
     cursor: pointer;
 }
 
-.barra .nuevoChat:hover {
+.chat .nuevoChat:hover {
     background-color: #CDC3E6;
 }
 
-.barra .nuevoChat:focus {
+.chat .nuevoChat:focus {
     background-color: #BEC1BB;
 }
 
